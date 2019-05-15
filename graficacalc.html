@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="bell.css">
+    <meta charset="utf-8">
+    <title>calcolatore</title>
+       <style type="text/css">
+          h2{color: blue;}
+       </style>
+         <center>
+         <h2>QUESTA E LA MIA CALCOLATRICE FATTA SOLO PER PENGU</h2>
+         <center>
+           <style type="text/css" src:"bell.css"></style>
+         <script type="text/javascript" src="logicacalc.js"></script>
+  </head>
+
+  <body>
+
+    <div id="calc" style="border:10px solid blue; display:inline-block; background-color: black;">
+
+
+        <input type="text" style="height: 30px;" id="input_calcolo" style="outline:none;"/><br><br><!--DOVE APPAIONO I NUMERI-->
+
+         <input type="button" value="1" onclick="scrivi('1')"/>
+         <!--creo un bottone con a cui assegno valore 1, con la funzione onclick gli assegno la funzione scrivi(valore)-->
+         <!--così facendo x tutti gli altri, la funzione SCRIVI(value) assegna al click sul bottone il value-->
+         <input type="button" value="2" onclick="scrivi('2')"/>
+         <input type="button" value="3" onclick="scrivi('3')"/>
+         <input type="button" value="+" onclick="scrivi('+')" style="width:30px;margin-left:32px;"/><br><br>
+
+         <input type="button" value="4" onclick="scrivi('4')"/>
+         <input type="button" value="5" onclick="scrivi('5')"/>
+         <input type="button" value="6" onclick="scrivi('6')"/>
+         <input type="button" value="-" onclick="scrivi('-')" style="width:30px;margin-left:32px;"/><br><br>
+
+         <input type="button" value="7" onclick="scrivi('7')"/>
+         <input type="button" value="8" onclick="scrivi('8')"/>
+         <input type="button" value="9" onclick="scrivi('9')"/>
+         <input type="button" value="*" onclick="scrivi('*')" style="width:30px;margin-left:32px;"/><br><br>
+
+         <input type="button" value="0" onclick="scrivi('0')">
+         <input type="button" value="." onclick="scrivi('.')">
+         <input type="button" value="C" onclick="cancella()">
+         <input type="button" value="÷" onclick="scrivi('/')" style="width:30px;margin-left:33px;"/><br><br>
+
+         <center><input type="button" value="=" onclick="calc()" style="width:100%;" /></center>
+
+    </div>
+    <br><br>
+    <p><center>Powered By <a href="https://it.linkedin.com/in/federico-farchione-147ab7139">Federico_Farchione</a>
+    </p>
+  </body>
+</html>

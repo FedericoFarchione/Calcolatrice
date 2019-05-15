@@ -1,0 +1,21 @@
+html {
+  background: #500;
+
+  color: #6cacc5;
+}
+
+table{border:solid 50px color: black; 
+
+}
+
+body {
+  color: #6cacc5;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 0;
+}
